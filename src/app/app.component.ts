@@ -13,34 +13,119 @@ export class AppComponent implements OnInit {
   public selectedIndex = 0;
   public appPages = [
     {
-      title: 'Inbox',
-      url: '/folder/Inbox',
+      title: 'Navegação',
+      url: 'navegacao',
       icon: 'mail'
     },
     {
-      title: 'Outbox',
-      url: '/folder/Outbox',
-      icon: 'paper-plane'
+      title: 'Botões',
+      url: 'botao',
+      icon: 'construct'
     },
     {
-      title: 'Favorites',
-      url: '/folder/Favorites',
-      icon: 'heart'
+      title: 'Alert',
+      url: 'alert',
+      icon: 'albums'
     },
     {
-      title: 'Archived',
-      url: '/folder/Archived',
-      icon: 'archive'
+      title: 'Action-Sheet',
+      url: 'actionsheet',
+      icon: 'walk'
     },
     {
-      title: 'Trash',
-      url: '/folder/Trash',
-      icon: 'trash'
+      title: 'Badge',
+      url: 'badge',
+      icon: 'pricetag'
     },
     {
-      title: 'Spam',
-      url: '/folder/Spam',
-      icon: 'warning'
+      title: 'Card',
+      url: 'card',
+      icon: 'card'
+    },
+    {
+      title: 'Checkbox',
+      url: 'checkbox',
+      icon: 'checkbox'
+    },
+    {
+      title: 'Chip',
+      url: 'chip',
+      icon: 'hardware-chip'
+    },
+    {
+      title: 'Content Sroll',
+      url: 'content',
+      icon: 'albums'
+    },
+    {
+      title: 'Date Time',
+      url: 'datetime',
+      icon: 'calendar'
+    },
+    {
+      title: 'Fab',
+      url: 'fab',
+      icon: 'radio'
+    },
+    {
+      title: 'Inputs',
+      url: 'inputs',
+      icon: 'clipboard'
+    },
+    {
+      title: 'Infinity Scroll',
+      url: 'infinityscroll',
+      icon: 'list'
+    },
+    {
+      title: 'Ion List',
+      url: 'list',
+      icon: 'list'
+    },
+    {
+      title: 'Progress Bar',
+      url: 'progressbar',
+      icon: 'battery-charging'
+    },
+    {
+      title: 'Refresh sher',
+      url: 'refresh',
+      icon: 'battery-charging'
+    },
+    {
+      title: 'Re-Order',
+      url: 'reorder',
+      icon: 'battery-charging'
+    },
+    {
+      title: 'Ion Select',
+      url: 'ionselect',
+      icon: 'battery-charging'
+    },
+    {
+      title: 'Toogle',
+      url: 'toogle',
+      icon: 'battery-charging'
+    },
+    {
+      title: 'Search Bar',
+      url: 'searchbar',
+      icon: 'search'
+    },
+    {
+      title: 'Componente Segment',
+      url: 'segment',
+      icon: 'search'
+    },
+    {
+      title: 'Componente Slide',
+      url: 'slide',
+      icon: 'search'
+    },
+    {
+      title: 'Componente toast Notification',
+      url: 'toast',
+      icon: 'search'
     }
   ];
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
