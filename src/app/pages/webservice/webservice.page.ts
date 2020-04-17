@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WebservicePage implements OnInit {
 
-  cep: string = '13401050'
+  cep: string = ''
   retorno: any = { cep: '', logradouro: '' };
   constructor(private cepService: CepService) { }
 
@@ -19,7 +19,7 @@ export class WebservicePage implements OnInit {
     this.cepService.obterEndereco(this.cep).then( json =>{
       this.retorno = json;
     }).catch(erro => {
-      console.error(erro);
+      alert('Não foi possível realizar a consulta');
     });
   }
 }
