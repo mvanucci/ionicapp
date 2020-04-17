@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Comunicação com webservice</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label position="stacked">Informe seu CEP</ion-label>
+    <ion-input type="text" [(ngModel)]="cep"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-button expand="block" (click)="consultarCEP()">Consultar</ion-button>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>CEP</ion-label>
+    <p>{{retorno.cep}}</p>
+  </ion-item>
+  <ion-item>
+    <ion-label>Logradouro</ion-label>
+    <p>{{retorno.logradouro}}</p>
+  </ion-item>
+
+</ion-content>

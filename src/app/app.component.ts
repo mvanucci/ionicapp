@@ -16,7 +16,17 @@ export class AppComponent implements OnInit {
       title: 'Componentes Visuais',
       url: 'componentes-visuais',
       icon: 'navigate'
-    }
+    },
+    {
+      title: 'Componentes Nativos',
+      url: 'componentes-nativos',
+      icon: 'paper-plane'
+    },
+    {
+      title: 'Comunicação Webservice',
+      url: 'webservice',
+      icon: 'arrow-undo'
+    },
     
   ];
   // public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
